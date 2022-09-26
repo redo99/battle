@@ -1,0 +1,13 @@
+.app-content {
+    margin: 20px auto !important;
+}
+
+.game {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 1px solid blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

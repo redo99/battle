@@ -1,0 +1,58 @@
+ul.fight-history {
+  padding: 0;
+  border: 1px solid blanchedalmond;
+  height: 260px;
+  overflow: scroll;
+  font-size: 13px;
+}
+
+ul.fight-history li {
+  list-style: none;
+  padding: 5px;
+  border-bottom: 1px solid blanchedalmond;
+}
+
+ul.fight-history li:nth-child(odd) { background: blanchedalmond; }
+
+ul.fight-history li:last-child {
+  border-bottom: none;
+}
+
+.attack {
+  padding: 0 5px;
+}
+
+.basileus {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dices-n-power {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.dices {
+  display: flex;
+}
+
+.dice {
+  width: 20px;
+  height: 20px;
+  background: #F5F8FA;
+  border: 1px solid #FEFEFE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+
+span.label {
+  font-weight: bold;
+}
+
+span.na {
+  font-style: italic;
+}

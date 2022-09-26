@@ -1,0 +1,10 @@
+.battles-list {
+    position: absolute;
+    left: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.battles-list li {
+    list-style: none;
+}
